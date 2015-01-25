@@ -14,6 +14,9 @@
 		0389A95A1A735D3100BC6B0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0389A9591A735D3100BC6B0B /* Images.xcassets */; };
 		0389A95D1A735D3100BC6B0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0389A95B1A735D3100BC6B0B /* LaunchScreen.xib */; };
 		0389A9691A735D3100BC6B0B /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389A9681A735D3100BC6B0B /* GetOnThatBusTests.m */; };
+		0389A9731A73651900BC6B0B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0389A9721A73651900BC6B0B /* MapKit.framework */; };
+		0389A9791A755E5300BC6B0B /* BusAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389A9781A755E5300BC6B0B /* BusAnnotation.m */; };
+		0389A97C1A75794D00BC6B0B /* DetailStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389A97B1A75794D00BC6B0B /* DetailStopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		0389A9621A735D3100BC6B0B /* GetOnThatBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnThatBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0389A9671A735D3100BC6B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0389A9681A735D3100BC6B0B /* GetOnThatBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusTests.m; sourceTree = "<group>"; };
+		0389A9721A73651900BC6B0B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0389A9771A755E5300BC6B0B /* BusAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusAnnotation.h; path = ../BusAnnotation.h; sourceTree = "<group>"; };
+		0389A9781A755E5300BC6B0B /* BusAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusAnnotation.m; path = ../BusAnnotation.m; sourceTree = "<group>"; };
+		0389A97A1A75794D00BC6B0B /* DetailStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailStopViewController.h; path = ../DetailStopViewController.h; sourceTree = "<group>"; };
+		0389A97B1A75794D00BC6B0B /* DetailStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailStopViewController.m; path = ../DetailStopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0389A9731A73651900BC6B0B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		0389A9401A735D3100BC6B0B = {
 			isa = PBXGroup;
 			children = (
+				0389A9721A73651900BC6B0B /* MapKit.framework */,
 				0389A94B1A735D3100BC6B0B /* GetOnThatBus */,
 				0389A9651A735D3100BC6B0B /* GetOnThatBusTests */,
 				0389A94A1A735D3100BC6B0B /* Products */,
@@ -85,6 +95,10 @@
 				0389A9511A735D3100BC6B0B /* AppDelegate.m */,
 				0389A9531A735D3100BC6B0B /* ViewController.h */,
 				0389A9541A735D3100BC6B0B /* ViewController.m */,
+				0389A9771A755E5300BC6B0B /* BusAnnotation.h */,
+				0389A9781A755E5300BC6B0B /* BusAnnotation.m */,
+				0389A97A1A75794D00BC6B0B /* DetailStopViewController.h */,
+				0389A97B1A75794D00BC6B0B /* DetailStopViewController.m */,
 				0389A9561A735D3100BC6B0B /* Main.storyboard */,
 				0389A9591A735D3100BC6B0B /* Images.xcassets */,
 				0389A95B1A735D3100BC6B0B /* LaunchScreen.xib */,
@@ -221,7 +235,9 @@
 			files = (
 				0389A9551A735D3100BC6B0B /* ViewController.m in Sources */,
 				0389A9521A735D3100BC6B0B /* AppDelegate.m in Sources */,
+				0389A97C1A75794D00BC6B0B /* DetailStopViewController.m in Sources */,
 				0389A94F1A735D3100BC6B0B /* main.m in Sources */,
+				0389A9791A755E5300BC6B0B /* BusAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
